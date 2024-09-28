@@ -1,0 +1,104 @@
+.container-fluid {
+  background: linear-gradient(135deg, #83a4d4, #b6fbff); 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  transition: transform 0.3s ease;
+  max-width: 100%; 
+  margin-top: 20px; 
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.upload-placeholder {
+  display: block;
+  cursor: pointer;
+  border: 2px dashed #007bff;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 123, 255, 0.1);
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.upload-placeholder:hover {
+  background-color: rgba(0, 123, 255, 0.2);
+}
+
+.upload-icon {
+  font-size: 50px;
+  color: #007bff;
+}
+
+.uploaded-image-container img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.uploaded-image-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+button.btn-primary {
+  width: 100%;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  border: none;
+  color: white;
+  padding: 10px 0;
+  border-radius: 40px;
+  margin-top: 10px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  font-size: 18px; 
+}
+
+button.btn-primary:hover {
+  background: linear-gradient(135deg, #00c6ff, #007bff);
+  transform: translateY(-3px);
+}
+
+button.btn-primary:disabled {
+  background: #007bff80;
+  cursor: not-allowed;
+}
+
+.result-message {
+  font-size: 20px; 
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.error-message {
+  color: red; 
+  font-size: 18px; 
+  font-family: Arial, sans-serif;
+}
+
+.upload-message {
+  font-size: 20px; 
+  color: #000000;
+  font-weight: bold; 
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-family: Arial, sans-serif; 
+  transition: color 0.3s ease; 
+}
+
+.upload-message:hover {
+  color: #0056b3; 
+}
+

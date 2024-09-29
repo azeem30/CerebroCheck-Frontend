@@ -25,7 +25,7 @@ function Home() {
           try {
               setLoading(true);
               console.log('Uploading image...');  
-              const response = await fetch('https://cerebrocheck.onrender.com/classify', {
+              const response = await fetch('http://0.0.0.0:10000/classify', {
                   method: 'POST',
                   body: formData,
               });

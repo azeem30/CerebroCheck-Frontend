@@ -13,7 +13,7 @@ function Home() {
             const file = event.target.files[0];
             setSelectedImage(URL.createObjectURL(file));
             setImageFile(file);
-            setError(null); // Reset error
+            setError(null); 
         }
     };
 
@@ -28,7 +28,6 @@ function Home() {
               const response = await fetch('https://cerebrocheck-backend.onrender.com/classify', {
                   method: 'POST',
                   body: formData,
-                  mode: 'no-cors' 
               });
               if (!response.ok) {
                   throw new Error(`HTTP error! Status: ${response.status}`);

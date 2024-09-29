@@ -28,6 +28,7 @@ function Home() {
               const response = await fetch('https://cerebrocheck-backend.onrender.com/classify', {
                   method: 'POST',
                   body: formData,
+                  mode: 'no-cors' 
               });
               if (!response.ok) {
                   throw new Error(`HTTP error! Status: ${response.status}`);

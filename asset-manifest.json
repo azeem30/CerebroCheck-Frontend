@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CerebroCheck-Frontend/static/css/main.be21e8cd.css",
+    "main.js": "/CerebroCheck-Frontend/static/js/main.bdb3d24f.js",
+    "static/js/453.f7be5b23.chunk.js": "/CerebroCheck-Frontend/static/js/453.f7be5b23.chunk.js",
+    "index.html": "/CerebroCheck-Frontend/index.html",
+    "main.be21e8cd.css.map": "/CerebroCheck-Frontend/static/css/main.be21e8cd.css.map",
+    "main.bdb3d24f.js.map": "/CerebroCheck-Frontend/static/js/main.bdb3d24f.js.map",
+    "453.f7be5b23.chunk.js.map": "/CerebroCheck-Frontend/static/js/453.f7be5b23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be21e8cd.css",
+    "static/js/main.bdb3d24f.js"
+  ]
+}
